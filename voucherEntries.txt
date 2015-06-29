@@ -1,0 +1,30 @@
+		contractor company freight
+debit agent = first record company
+debit title = company freight a/c
+credeit agent = first recored contractor
+credit title = contractor freight account from company
+		company commission
+debit agent = contractor
+credit agent = company
+debit title = contractor commision account to company
+credit title = company commission a/c
+		contractor commission
+debit agent = contractor   +                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+credit agent = other agent
+debit title = contractor commission a/c from customer
+credit title = credit a/c
+		company W.H.T
+debit agent = company
+credit agent = company
+debit title = company wht account
+credit title = bank a/c
+		customer freight
+debit agent = contractor
+credit agent = customer
+debit title = contractor freight a/c to customer
+credit title = customer freight a/c
+		service charges
+debit agent = contractor
+credit agent = other agent
+debit title = contractor service charges
+credit title = credit a/c
